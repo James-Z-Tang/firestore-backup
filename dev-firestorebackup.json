@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ziotag-develop-255315",
+  "private_key_id": "2c1ef9741c0581ff7f1bd77e7932880f5f7d587a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDbsM/r8NxFIO6T\nYPb8sMEgnqJ5kFtWOW3iwLKf5FWyqmnBHJfeIAyg/E45DuyB2UmelU5CLchJx0yN\nWABVaAt+Xu/WdSedFmxESh9pa2y1lTLK0t/uD9WN39NPaEMpYVOE/M7t7ZFCZany\nFVWzJTo1lAuLEHsyAsvbY1WyFB7xim8pAc+lUNCyys7Vx0Bn+fKeKQVWodM0Uxvs\nG507j0ZFQm5vIWeqske9/Tf0JEfsv+YKcE7KxpJim9JHl79ed0ZghqQqgj30Fa+J\nqmA/svLN0xFKT1iad9aOdNLdFYulUyXy2vTxeiYIrSs1ir437Eykib9WPfvjxjO9\nkmpU2ebLAgMBAAECggEAG3CzynLMyIkAU6yTsmSk0sgNtOUTi4Bj2c6bi74k+B/c\nqBAZZgIXIbqHTg2E/AO3HtWOWf9xmh7d0HUdTDhRNd5yKEAni7GjzJ8nhO7ekWBf\n4OvtqBoWi1XZhScZkHRwJAHBxP/cmhsBsFOlidlMsn7Z4ZZUP58QIHMsCTCwhsG6\nXHSVG4SPcvMbxf2xUHbBP3yPRpzEvucULOz6oayGt4AQk1N4atBgUdETz6OnNoPb\nSjkojXkayF8YMKEuA04nu9YynYKCcIjMcZn75aqC5ehzFs9AXz0r0zB1MzgkYSbi\nYO3l2aaDyYgtbcJ1FoDTc6Tn2WHrvyYDiu5/WsdfNQKBgQD1JJrWhI85ArmSRZFw\n7zaYY1DuMLKgtdrjIU3pOtCRAua0Rw8scWgC/3rVYOruiuYvxu+/Y5bCmmdex8VV\nrb+eRHTUF9g+phzeo0RgTb+lGriwq2/Q+13Dh8F0yD5HkG4hErKAzpvyJI047lmn\njq0Bj+vhf6t+hr/lUZ1oRH1sRwKBgQDla6H7/yxx4LN7YNpKDyJxhrxBBKBscu9n\nIl1XOaRpEMvsgVBlQcg5SBcOM+XufT0ZpK5eBfPQ10RWEbDmF3odRWD9DFZyRnF1\nqEfw1IEHKiffPojoJHIXegH+HkOthDGwvW+M70KrwC6iwbRGfsfMacdrO4PIKYz4\nLRs9zv9nXQKBgQDOfvAjBXSzvFTfHtTdwdNGWFqi2ciOUcG5E6PSc+WeUUhO0ZC5\niinoZJZuyX38RGqUEkp/+H7VHEU49KSIgJxp0BZtVkyksT6eV/9P9A4cIL80qqS8\n8BDSlTdjjQ3RMJtkJqDQmbmJJjsDmttQpoGbUEWNJQMryIw6uh4S56aTHwKBgExR\nLrRuYTGMpwgO4u6p9DJBuNQEHv2UilELnHNMqIWO4ddN+RmF9X4gnhLKbt2T6cRj\nBOIgJsg9I+1huy//dU7Ran8jIIqpJksWbMAPYNCqVFMuMUrP/OgUXR9Un/zTsdfy\nXG5MlSgfKSRZPYgJ2psEQSNJy//E2rEgCCTafBm9AoGBAMpw9S6OOGRqHEdz9Ear\n97wOxGUP88O6sjBFwztsGp3SUme59exTCGOiadQ1I1aDaxxoUsIGDPO9bs0A8EBA\nLW5weGbZ9hoAGZZsjjnGi3SCm8TWSBzMYn9PJ0z/ODY9MIYg8Erkbu+gT81dr3Xn\n3YqcG7m7z22nMgR+TGQ8FzPy\n-----END PRIVATE KEY-----\n",
+  "client_email": "dev-firestorebackup@ziotag-develop-255315.iam.gserviceaccount.com",
+  "client_id": "116119571385154390781",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dev-firestorebackup%40ziotag-develop-255315.iam.gserviceaccount.com"
+}

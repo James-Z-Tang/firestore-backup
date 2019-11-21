@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "firm-processor-246122",
+  "private_key_id": "e07380d1e74bfb65b63b86d30c2f0c865cfafac4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEZy0qlikvJVYb\nVHSGQxvePECnKaPRWcnBYqPbq86m2WeK4ouYdEAumd80Z4KiLHNxw5JATQ1TpE+R\ncyWdZJx9NKBG87Ejz1rkyOCr84oXMj7GS0bURnYLHy+lZ5X4Ds75Tlcn7N1seCnK\nVo4oQ2Uln6++W0eHqlL1W0lNT3f8H3Yu+Vrmj+VJiyVimxaSzBUP+8ALWOhrQCUJ\nKAqjCZPIkMcL1yO+NKSTZLvrGvp9SBLCJQ8kq2AQuBHwPg9RhfD847zBVjd4CYEp\nSgEXUJlK3nIqZBPqe9WlbvqENSWdM2e9C/L4jgLb2ezIW0RlebkwJbZGD3rnqQKS\nQL6UAhL1AgMBAAECggEAARAo6a3Z57gtROUaY16qIDQVyoHacefpRGt3BRmjOvp6\nycDrrgXVEhuBnow/5AZXEqLTIBd6rrz5NEmaBsXUZgYapv+rMg0tigb/VlbxZKpA\nNj0Sk1QVT/6ZeKz8nhTgcG+I372zviJRYZfB2bxxp/g7EI34b2bP36WgmjNHrDzx\n7S2T8vJnUTzppN3iLcd4Yobt1vD4PvdhGY0P8u5oz03SCOTqD1wtvn6//UT9yd76\ndCXSZ3/iC2CrvFeFx9cHstAFpKbj5BQfj9oe2R7KR40Ny/fLhWsZgTYbd6OekXua\nafy38h6vEESe7Hn+cTQw+K1XkCOjL3a82fjdwExGEQKBgQDwEgeSP6oiHxI0oSZU\ngtb+2cODkR20X9Bk0JLB7QBomGySHBzqI60hBClmP1cthMLZsVUcowbByuqRrBtG\nShRLdMEE1tC4JrmGFrjP6KyZy5WEyUah1m0sjy7jjRH4kgH5hU4rlxhFdX8VD0P7\ngBJixRk8HeOF1yXDa/TpDrAWBQKBgQDRb2NZgJOqhzeJimlcA5T9rZqnu9tzmD7P\n94Td6epTQ+R1XiyjIAo8LDEQBOaT4Wp37/Wde3t0DKNiTyKENk5wbLwZB+dtqPsW\nVQGfayh9iYIL2kiSN7DnSK8XsIj1CxHAx5yhyrmfIDkl8z3za4gLpLvXcReymdv1\n7sDwSIEsMQKBgQDqehGfDEOVtBdKBCO1410t6W+Gr1P9+p9F+Fl+w4bkogtY4dBz\n94h/eNsenLr/IG5XxVZF9A0DdreItDqnem88C7sCiPWvB1Oo3cSAfNcoF6nf2d78\n7rwPC4JWilCFIcZ/+W2SMa9pGAuZfCGAIWTTx4KQLvksniiqKGU6xDfEKQKBgE2q\nH8599sSDFh5EHKQJlAOqkDJpYIzyRUC7yiK87q9n+t1nSehIJmOAA8Wr+5GVQvUt\nIAkBVJuJYEFBlUwwE1BvkiU6ICEzS8FRTqO+iipbhsU8cjL+wfRSqNOBHJi6PSAf\nJb99vO38dhTTqgKNusqOkTXoc2BA3CfMHPI+AODRAoGAH+InbiiInHdMv7soUBh+\nQ+/RSVLS3gIB/feA7xQktTrLrF+OXJqxJJRKFfxraTLMvdXZApquX+Fc22zLkNP/\ncZmH3dRbq9jxgRtjLRWQwgY8Bsyo3jng2+dwM/ZLOTxcX1uR3UzdFIIJJkYrgVBG\nx0dAXXZKoqnqivFxVXr+m70=\n-----END PRIVATE KEY-----\n",
+  "client_email": "stage-firestorebackup@firm-processor-246122.iam.gserviceaccount.com",
+  "client_id": "113521131078554430199",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stage-firestorebackup%40firm-processor-246122.iam.gserviceaccount.com"
+}

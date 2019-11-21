@@ -1,0 +1,64 @@
+variables:
+  DEV_ACCOUNT_KEY_FILE: "dev-firestorebackup.json"
+  DEV_PROJECT_ID: "ziotag-develop-255315"
+  DEV_BUCKET: "gs://ziotag-firestore-dev/"
+
+  STAGE_ACCOUNT_KEY_FILE: "stage-firestorebackup.json"
+  STAGE_PROJECT_ID: "firm-processor-246122"
+  STAGE_BUCKET: "gs://ziotag-firestore-stage/"
+  
+  PROD_ACCOUNT_KEY_FILE: "prod-firestorebackup.json"
+  PROD_PROJECT_ID: "ziotag-production"
+  PROD_BUCKET: "gs://ziotag-firestore-production/"
+
+.job_environment_development: &job_environment_development
+  only:
+    - firestore-development-backup
+
+.job_environment_stage: &job_environment_stage
+  only:
+    - firestore-stage-backup
+
+
+.job_environment_production: &job_environment_production
+  only:
+    - firestore-prod-backup
+
+
+
+
+.job_firestore_backup_template: &job_firestore_backup_template
+  image: google/cloud-sdk
+  script:
+    - cp $KEY  key.json; #Copy local file to runner instance
+    - gcloud auth activate-service-account --key-file=key.json; #Authenticating gcloud
+    - gcloud config set project $PROJECT_ID; #Selecting  project
+    - echo "Backuping firestore all collection"; 
+    - gcloud beta firestore export $BUCKET; #Backup/Export firestore all collection
+    - echo "Backup complete";
+
+job_backup_development:
+  <<: *job_firestore_backup_template
+  <<: *job_environment_development
+  variables:
+    PROJECT_ID: $DEV_PROJECT_ID
+    KEY: $DEV_ACCOUNT_KEY_FILE
+    BUCKET: $DEV_BUCKET
+
+job_backup_stage:
+  <<: *job_firestore_backup_template
+  <<: *job_environment_stage
+  variables:
+    PROJECT_ID: $STAGE_PROJECT_ID
+    KEY: $STAGE_ACCOUNT_KEY_FILE
+    BUCKET: $STAGE_BUCKET
+
+
+
+job_backup_prod:
+  <<: *job_firestore_backup_template
+  <<: *job_environment_production
+  variables:
+    PROJECT_ID: $PROD_PROJECT_ID
+    KEY: $PROD_ACCOUNT_KEY_FILE
+    BUCKET: $PROD_BUCKET
